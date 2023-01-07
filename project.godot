@@ -10,6 +10,31 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Object",
+"class": "COMP",
+"language": "GDScript",
+"path": "res://Src/ECS/ComponentManager.gd"
+}, {
+"base": "Component",
+"class": "C_0_INDEX",
+"language": "GDScript",
+"path": "res://Src/ECS/Components/C0.gd"
+}, {
+"base": "Component",
+"class": "C_1_SIZE",
+"language": "GDScript",
+"path": "res://Src/ECS/Components/C1.gd"
+}, {
+"base": "Component",
+"class": "C_2_NAME",
+"language": "GDScript",
+"path": "res://Src/ECS/Components/C2.gd"
+}, {
+"base": "Component",
+"class": "C_3_DESCRIPTION",
+"language": "GDScript",
+"path": "res://Src/ECS/Components/C3.gd"
+}, {
+"base": "Object",
 "class": "Component",
 "language": "GDScript",
 "path": "res://Src/ECS/Component.gd"
@@ -18,10 +43,33 @@ _global_script_classes=[ {
 "class": "Entity",
 "language": "GDScript",
 "path": "res://Src/ECS/Entity.gd"
+}, {
+"base": "Object",
+"class": "EntityManager",
+"language": "GDScript",
+"path": "res://Src/ECS/EntityManager.gd"
+}, {
+"base": "Object",
+"class": "Parser_Organ",
+"language": "GDScript",
+"path": "res://Src/Parser/OrganParser.gd"
+}, {
+"base": "Node",
+"class": "Utils",
+"language": "GDScript",
+"path": "res://Src/Utils.gd"
 } ]
 _global_script_class_icons={
+"COMP": "",
+"C_0_INDEX": "",
+"C_1_SIZE": "",
+"C_2_NAME": "",
+"C_3_DESCRIPTION": "",
 "Component": "",
-"Entity": ""
+"Entity": "",
+"EntityManager": "",
+"Parser_Organ": "",
+"Utils": ""
 }
 
 [application]
@@ -29,6 +77,10 @@ _global_script_class_icons={
 config/name="Frankies Freaky Friends"
 run/main_scene="res://Scenes/Title/Root.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Atlas="*res://Src/Atlas.gd"
 
 [physics]
 

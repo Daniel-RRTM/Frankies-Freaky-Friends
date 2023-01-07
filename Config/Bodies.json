@@ -1,0 +1,15 @@
+{
+    "CAT":{
+         "C_1_SIZE" : "SMALL"
+        
+         ,"slots":{
+             "left_leg"  : "PAWS"
+            ,"right_leg" : "CLAWS"
+            ,"torso"     : ""
+            ,"head"      : "RESIDUAL_LIGHT_AMPLIFIER"
+        }
+    }
+
+
+
+}

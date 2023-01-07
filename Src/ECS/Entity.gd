@@ -19,6 +19,7 @@ var flags : Array = []
 
 #>>> Components <<<#
 
+
 # FUNC > returns instance! use [getCompValue] for its content  
 func getComp(compName:String) -> Component:	
 	return self.components[compName]
@@ -32,6 +33,7 @@ func hasComp(componentName:String) -> bool:
 
 
 #>>> Templates <<<#
+
 
 # FUNC > Flyweight-pattern, Instances are shared globally! 
 func getCompTemp(tempName:String, compName:String) -> Component:  
@@ -47,8 +49,6 @@ func hasTemplate(tempName:String) -> bool:
 
 func getFlagTemp(tempName:String):
 	return templates[tempName].flags
-
-
 
 func hasFlag(flagName:String)  -> bool:   return flags.has(flagName)
 
@@ -88,16 +88,6 @@ func addFlag(flagName:String) -> void:
 
 func removeFlag(flagName:String) -> void:
 	flags.erase(flagName)
-
-
-#>>> Properties <<<#
-
-
-func addProperty(propEnum:int) -> void:
-	properties.append(propEnum)
-
-func removeProperty(propEnum:int) -> void:
-	properties.erase(propEnum)
 
 
 

@@ -1,0 +1,23 @@
+{
+    "TAIL":{
+         "C_2_NAME"        : "Tail"
+        ,"C_3_DESCRIPTION" : " "
+    },
+    
+    "RESIDUAL_LIGHT_AMPLIFIER":{
+         "C_2_NAME"        : "residual light amplifier"
+        ,"C_3_DESCRIPTION" : "sees clearly even at low light"
+    },
+
+    "PAWS":{
+         "C_2_NAME"        : "Paws"
+        ,"C_3_DESCRIPTION" : "negates fall damage"
+    },
+
+    "CLAWS":{
+        "C_2_NAME"        : "Claws"
+       ,"C_3_DESCRIPTION" : "retractable fingernails"
+   }
+
+
+}

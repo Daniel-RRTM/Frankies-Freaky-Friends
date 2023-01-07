@@ -1,11 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
+	"folders": [{"path": "."}],
+
 	"settings": {
-			
 	
 	//--------------------\\
 	//----- GENERALL -----\\
@@ -37,7 +33,7 @@
 		"editor.fontLigatures"            : true,											// enables Ligature
 		"editor.fontSize"                 : 10,                   							// Text size combined with Zoomlevel
 		"workbench.editor.revealIfOpen"   : true,								 			// focuses already opened files when clicked again in explorer
-		"window.zoomLevel"                : 1,
+		"window.zoomLevel"                : 2,
 		"editor.tokenColorCustomizations" : {"[One Dark Pro]": {"comments": "#fff897"}},  // more visible Comments
 
 		// LINE COUNTER
@@ -139,7 +135,8 @@
 				"borderStyle"     : "2px dotted #336340",
 				"borderRadius"    : 1
 			}
-		]
+		],
+		"godot_tools.editor_path": "c:\\Users\\user\\Desktop\\Godot_v3.3.4-64Bit.exe"
 
 
 		
