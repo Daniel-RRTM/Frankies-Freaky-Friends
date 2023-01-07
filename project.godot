@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Object",
+"class": "Component",
+"language": "GDScript",
+"path": "res://Src/ECS/Component.gd"
+}, {
+"base": "Node",
+"class": "Entity",
+"language": "GDScript",
+"path": "res://Src/ECS/Entity.gd"
+} ]
+_global_script_class_icons={
+"Component": "",
+"Entity": ""
+}
+
 [application]
 
 config/name="Frankies Freaky Friends"
