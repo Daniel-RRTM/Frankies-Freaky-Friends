@@ -33,8 +33,101 @@
           ,"left_arm"  : "ADJUSTABLE_THUMBS"
           ,"right_arm" : ""
           ,"head"      : "HAIRSTYLE"
+          ,"extra"     : ""
         }
-    }
+    },
+
+    "DOG":{
+        "C_1_SIZE" : "MEDIUM"
+       ,"C_2_NAME" : "Dog"
+       ,"C_4_SLOTS":{
+           "left_leg"  : ""
+          ,"right_leg" : ""
+          ,"torso"     : "TAIL"
+          ,"left_arm"  : ""
+          ,"right_arm" : ""
+          ,"head"      : "BROAD_HEARING_SPECTRUM"
+        }
+    },
+
+    "RAVEN":{
+        "C_1_SIZE" : "SMALL"
+       ,"C_2_NAME" : "Raven"
+       ,"C_4_SLOTS":{
+           "left_leg"  : ""
+          ,"right_leg" : "WINGS"
+          ,"torso"     : "UNCONDITIONAL_DIET"
+          ,"head"      : ""
+      }
+  },
+
+  "BEAR":{
+    "C_1_SIZE" : "LARGE"
+   ,"C_2_NAME" : "Bear"
+   ,"C_4_SLOTS":{
+         "left_leg"  : ""
+        ,"right_leg" : ""
+        ,"torso"     : ""
+        ,"left_arm"  : "CLAWS"
+        ,"right_arm" : ""
+        ,"head"      : "FINE_SMELLING"
+        ,"extra"     : "HYBERNATION"
+        }
+    },
+
+    "SHEEP":{
+        "C_1_SIZE" : "MEDIUM"
+       ,"C_2_NAME" : "Sheep"
+       ,"C_4_SLOTS":{
+             "left_leg"  : ""
+            ,"right_leg" : ""
+            ,"torso"     : "WOOL"
+            ,"left_arm"  : ""
+            ,"right_arm" : ""
+            ,"head"      : "HEARD_ANIMAL"
+            }
+        },
+
+    "EAGLE":{
+        "C_1_SIZE" : "MEDIUM"
+        ,"C_2_NAME" : "Raven"
+        ,"C_4_SLOTS":{
+             "left_leg"  : ""
+            ,"right_leg" : ""
+            ,"torso"     : "WOOL"
+            ,"left_arm"  : "WINGS"
+            ,"right_arm" : ""
+            ,"head"      : "HEARD_ANIMAL"
+            }
+        },
+
+    "DRAGON":{
+        "C_1_SIZE" : "LARGE"
+        ,"C_2_NAME" : "Dragon"
+        ,"C_4_SLOTS":{
+             "left_leg"  : ""
+            ,"right_leg" : ""
+            ,"torso"     : ""
+            ,"left_arm"  : "CLAWS"
+            ,"right_arm" : ""
+            ,"head"      : "FIRE_BREATH"
+            ,"extra"     : "WINGS"
+            }
+        },
+
+    "BEAVER":{
+         "C_1_SIZE" : "MEDIUM"
+        ,"C_2_NAME" : "Beaver"
+        ,"C_4_SLOTS":{
+             "left_leg"  : ""
+            ,"right_leg" : ""
+            ,"torso"     : ""
+            ,"left_arm"  : "CLAWS"
+            ,"right_arm" : ""
+            ,"head"      : "WOODWORKER"
+            }
+        }
+
 
 
 }
