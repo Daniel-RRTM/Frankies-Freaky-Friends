@@ -42,7 +42,15 @@
     "UNCONDITIONAL_DIET":{
          "C_2_NAME"        : "Unconditional diet"
         ,"C_3_DESCRIPTION" : "can eat anything"
-    }
+    },
+
+    "FINE_SMELLING":{
+        "C_2_NAME"        : "Fine smelling"
+       ,"C_3_DESCRIPTION" : "can sniff everything"
+   }
+
+
+
 
 
 }

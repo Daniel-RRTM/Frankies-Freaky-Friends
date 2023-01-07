@@ -20,11 +20,11 @@ var flags : Array = []
 #>>> Components <<<#
 
 
-# FUNC > returns instance! use [getCompValue] for its content  
+# FUNC > returns instance! use [getCompValue] for its content 
 func getComp(compName:String) -> Component:	
 	return self.components[compName]
 
-# FUNC > Check [compInst.getType_quack()] for type of return 
+# FUNC > Check [compInst.getType_quack()] for type of return  
 func getCompValue(compName:String): 
 	return self.components[compName].value
 
@@ -35,12 +35,12 @@ func hasComp(componentName:String) -> bool:
 #>>> Templates <<<#
 
 
-# FUNC > Flyweight-pattern, Instances are shared globally! 
+# FUNC > Flyweight-pattern, Instances are shared globally!    
 func getCompTemp(tempName:String, compName:String) -> Component:  
 	return templates[tempName].components[compName]
-
-# FUNC > Flyweight-pattern, Instances are shared globally! 
-# FUNC > Check [compInst.getType_quack()] for type of return 
+ 
+# FUNC > Flyweight-pattern, Instances are shared globally!    
+# FUNC > Check [compInst.getType_quack()] for type of return  
 func getCompTempValue(tempName:String, compName:String):
 	return getCompTemp(tempName,compName).value
 
@@ -50,7 +50,8 @@ func hasTemplate(tempName:String) -> bool:
 func getFlagTemp(tempName:String):
 	return templates[tempName].flags
 
-func hasFlag(flagName:String)  -> bool:   return flags.has(flagName)
+func hasFlag(flagName:String)  -> bool:
+	return flags.has(flagName)
 
 
 
@@ -60,12 +61,12 @@ func hasFlag(flagName:String)  -> bool:   return flags.has(flagName)
 #>>> Components <<<#
 
 
-# FUNC > Has to be indexed children of Component                
+# FUNC > Has to be indexed children of Component              
 func addComponent(compInstance:Component) -> void:
 	components[compInstance.name] = compInstance
 	compInstance.owner = self
 
-# FUNC > will not [queue_free()] the Component!                 
+# FUNC > will not [queue_free()] the Component!               
 func removeComponent(compName:String) -> void:
 	if hasComp(compName):  components.erase(compName)	
 
