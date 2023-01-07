@@ -52,8 +52,12 @@
    "HYBERANTION":{
          "C_2_NAME"        : "Hybernation"
         ,"C_3_DESCRIPTION" : "can sleep for several months"
-}
+    },
 
+    "WOOL":{
+        "C_2_NAME"        : "Wool"
+       ,"C_3_DESCRIPTION" : "grows wool"
+    }
 
 
 }
