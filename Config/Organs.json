@@ -62,9 +62,12 @@
     "HEARD_ANIMAL":{
         "C_2_NAME"        : "Heard-animal"
        ,"C_3_DESCRIPTION" : "feels comfortable in large groups"
+    },
+
+    "FIRE_BREATH":{
+        "C_2_NAME"        : "Firebreath"
+       ,"C_3_DESCRIPTION" : "can breath fire"
     }
 
 
-
-    
 }
