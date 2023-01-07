@@ -67,7 +67,11 @@
     "FIRE_BREATH":{
         "C_2_NAME"        : "Firebreath"
        ,"C_3_DESCRIPTION" : "can breath fire"
-    }
+    },
 
+    "WOOD_WORKER":{
+        "C_2_NAME"        : "Woodworker"
+       ,"C_3_DESCRIPTION" : "can construct things out of wood"
+    }
 
 }
