@@ -11,6 +11,7 @@ static func getAll() -> Dictionary:
 		,"C_1_SIZE"         : C_1_SIZE
 		,"C_2_NAME"         : C_2_NAME
 		,"C_3_DESCRIPTION"  : C_3_DESCRIPTION
+		,"C_4_SLOTS"        : C_4_SLOTS
 	}
 
 

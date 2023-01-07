@@ -2,7 +2,7 @@
     "CAT":{
          "C_1_SIZE" : "SMALL"
         
-         ,"slots":{
+         ,"C_4_SLOTS":{
              "left_leg"  : "PAWS"
             ,"right_leg" : "CLAWS"
             ,"torso"     : ""

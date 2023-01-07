@@ -1,10 +1,10 @@
 extends Component
-class_name C_3_DESCRIPTION
+class_name C_4_SLOTS
 
-var value: String
+var value: Dictionary
 
-func _init(valuePara:String):
-	self.name = "C_3_DESCRIPTION"
+func _init(valuePara:Dictionary):
+	self.name = "C_4_SLOTS"
 	value     = valuePara
 
 
@@ -12,7 +12,7 @@ func _init(valuePara:String):
 static func getAutoDoc(): 
 	return{
 	 "description" : "shows if still in game"
-	,"type"        : "STRING"
+	,"type"        : "DICTIONARY"
 	,"name"        : "Description"
 }
 

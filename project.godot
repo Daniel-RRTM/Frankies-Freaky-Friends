@@ -34,6 +34,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/ECS/Components/C3.gd"
 }, {
+"base": "Component",
+"class": "C_4_SLOTS",
+"language": "GDScript",
+"path": "res://Src/ECS/Components/C4.gd"
+}, {
 "base": "Object",
 "class": "Component",
 "language": "GDScript",
@@ -45,9 +50,9 @@ _global_script_classes=[ {
 "path": "res://Src/ECS/Entity.gd"
 }, {
 "base": "Object",
-"class": "EntityManager",
+"class": "Parser_Body",
 "language": "GDScript",
-"path": "res://Src/ECS/EntityManager.gd"
+"path": "res://Src/Parser/BodyParser.gd"
 }, {
 "base": "Object",
 "class": "Parser_Organ",
@@ -65,9 +70,10 @@ _global_script_class_icons={
 "C_1_SIZE": "",
 "C_2_NAME": "",
 "C_3_DESCRIPTION": "",
+"C_4_SLOTS": "",
 "Component": "",
 "Entity": "",
-"EntityManager": "",
+"Parser_Body": "",
 "Parser_Organ": "",
 "Utils": ""
 }

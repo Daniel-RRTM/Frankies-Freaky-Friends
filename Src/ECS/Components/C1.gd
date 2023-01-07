@@ -1,9 +1,9 @@
 extends Component
 class_name C_1_SIZE
 
-var value: int
+var value: String
 
-func _init(valuePara:int):
+func _init(valuePara:String):
 	self.name = "C_1_SIZE"
 	value     = valuePara
 
@@ -12,7 +12,7 @@ func _init(valuePara:int):
 static func getAutoDoc(): 
 	return{
 	 "description" : "shows if still in game"
-	,"type"        : "INTEGER"
+	,"type"        : "STRING"
 	,"name"        : "Size"
 }
 
