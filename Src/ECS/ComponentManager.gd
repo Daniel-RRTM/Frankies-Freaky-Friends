@@ -3,10 +3,10 @@ class_name COMP
 
 
 static func GET(index:String) -> Component:
-	return getAll()[index]
+	return _getAll()[index]
 
 
-static func getAll() -> Dictionary:
+static func _getAll() -> Dictionary:
 	return {
 		 "C_0_INDEX"        : C_0_INDEX
 		,"C_1_SIZE"         : C_1_SIZE

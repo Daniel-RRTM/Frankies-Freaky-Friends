@@ -29,10 +29,10 @@
        ,"C_4_SLOTS":{
            "left_leg"  : ""
           ,"right_leg" : ""
-          ,"torso"     : "SWEAT_GLANDS"
-          ,"left_arm"  : "ADJUSTABLE_THUMBS"
+          ,"torso"     : ""
+          ,"left_arm"  : ""
           ,"right_arm" : ""
-          ,"head"      : "HAIRSTYLE"
+          ,"head"      : ""
           ,"extra"     : ""
         }
     },

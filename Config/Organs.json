@@ -32,7 +32,11 @@
     "HAIRSTYLE":{
         "C_2_NAME"        : "Hairstyle"
        ,"C_3_DESCRIPTION" : "looks very very cool"
-   }
+   },
 
+   "WINGS":{
+    "C_2_NAME"        : "Wings"
+   ,"C_3_DESCRIPTION" : "enables flying"
+}
 
 }
