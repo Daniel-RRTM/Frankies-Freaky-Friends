@@ -33,10 +33,16 @@
         "C_2_NAME"        : "Hairstyle"
        ,"C_3_DESCRIPTION" : "looks very very cool"
    },
+   
+    "WINGS":{
+     "C_2_NAME"        : "Wings"
+    ,"C_3_DESCRIPTION" : "enables flying"
+    },
 
-   "WINGS":{
-    "C_2_NAME"        : "Wings"
-   ,"C_3_DESCRIPTION" : "enables flying"
-}
+    "UNCONDITIONAL_DIET":{
+         "C_2_NAME"        : "Unconditional diet"
+        ,"C_3_DESCRIPTION" : "can eat anything"
+    }
+
 
 }
