@@ -57,7 +57,14 @@
     "WOOL":{
         "C_2_NAME"        : "Wool"
        ,"C_3_DESCRIPTION" : "grows wool"
+    },
+
+    "HEARD_ANIMAL":{
+        "C_2_NAME"        : "Heard-animal"
+       ,"C_3_DESCRIPTION" : "feels comfortable in large groups"
     }
 
 
+
+    
 }
