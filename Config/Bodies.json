@@ -1,15 +1,40 @@
 {
     "CAT":{
-         "C_1_SIZE" : "SMALL"
-        
+          "C_1_SIZE" : "SMALL"
+         ,"C_2_NAME" : "Cat"
          ,"C_4_SLOTS":{
              "left_leg"  : "PAWS"
             ,"right_leg" : "CLAWS"
             ,"torso"     : ""
             ,"head"      : "RESIDUAL_LIGHT_AMPLIFIER"
         }
-    }
+    },
 
+    "HUMAN":{
+        "C_1_SIZE" : "MEDIUM"
+       ,"C_2_NAME" : "Human"
+       ,"C_4_SLOTS":{
+           "left_leg"  : ""
+          ,"right_leg" : ""
+          ,"torso"     : "SWEAT_GLANDS"
+          ,"left_arm"  : "ADJUSTABLE_THUMBS"
+          ,"right_arm" : ""
+          ,"head"      : "HAIRSTYLE"
+        }
+    },
+
+    "HORSE":{
+        "C_1_SIZE" : "LARGE"
+       ,"C_2_NAME" : "Horse"
+       ,"C_4_SLOTS":{
+           "left_leg"  : ""
+          ,"right_leg" : ""
+          ,"torso"     : "SWEAT_GLANDS"
+          ,"left_arm"  : "ADJUSTABLE_THUMBS"
+          ,"right_arm" : ""
+          ,"head"      : "HAIRSTYLE"
+        }
+    }
 
 
 }

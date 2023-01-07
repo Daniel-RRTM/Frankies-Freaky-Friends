@@ -17,6 +17,21 @@
     "CLAWS":{
         "C_2_NAME"        : "Claws"
        ,"C_3_DESCRIPTION" : "retractable fingernails"
+   },
+
+    "SWEAT_GLANDS":{
+         "C_2_NAME"        : "Sweat Glands"
+        ,"C_3_DESCRIPTION" : "enables long term sprinting"
+    },
+
+    "ADJUSTABLE_THUMBS":{
+         "C_2_NAME"        : "Adjustable Thumbs"
+        ,"C_3_DESCRIPTION" : "enables toolusage"
+    },
+
+    "HAIRSTYLE":{
+        "C_2_NAME"        : "Hairstyle"
+       ,"C_3_DESCRIPTION" : "looks very very cool"
    }
 
 
