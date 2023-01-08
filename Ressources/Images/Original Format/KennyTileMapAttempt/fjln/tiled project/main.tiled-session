@@ -1,0 +1,25 @@
+{
+    "activeFile": "C:/Users/kabra/Desktop/KennyTileMap.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "C:/Users/kabra/Desktop/KennyTileMap.tmx": {
+            "scale": 0.5343749999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.0000000000002,
+                "y": 640
+            }
+        },
+        "C:/Users/kabra/Desktop/tilesheet_complete.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+        "C:/Users/kabra/Desktop/KennyTileMap.tmx"
+    ],
+    "project": "",
+    "recentFiles": [
+        "C:/Users/kabra/Desktop/KennyTileMap.tmx"
+    ]
+}
