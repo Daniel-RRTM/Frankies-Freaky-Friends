@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Ressources/Images/KennyWorkspacesLighterWIP.png" type="Texture" id=1]
+[ext_resource path="res://Ressources/Images/KennyWorkspacesNoPerlin.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/UITest/TransparentButtonStyle.tres" type="StyleBox" id=2]
 [ext_resource path="res://Scenes/UITest/DarkButtonStyle.tres" type="StyleBox" id=3]
 [ext_resource path="res://Ressources/Images/KennyWorkspacesDarkAreaWIP.png" type="Texture" id=4]

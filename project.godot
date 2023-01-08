@@ -93,7 +93,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Frankies Freaky Friends"
-run/main_scene="res://Scenes/Title/Root.tscn"
+run/main_scene="res://Scenes/UITest/UITest.tscn"
 config/icon="res://icon.png"
 
 [autoload]
