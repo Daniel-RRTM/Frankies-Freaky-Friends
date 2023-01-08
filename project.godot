@@ -68,6 +68,11 @@ _global_script_classes=[ {
 "class": "Utils",
 "language": "GDScript",
 "path": "res://Src/Utils.gd"
+}, {
+"base": "Camera2D",
+"class": "ZoomingCamera2D",
+"language": "GDScript",
+"path": "res://Scenes/UITest/UITestCamera.gd"
 } ]
 _global_script_class_icons={
 "COMP": "",
@@ -81,7 +86,8 @@ _global_script_class_icons={
 "Entity": "",
 "Parser_Body": "",
 "Parser_Organ": "",
-"Utils": ""
+"Utils": "",
+"ZoomingCamera2D": ""
 }
 
 [application]
@@ -93,6 +99,21 @@ config/icon="res://icon.png"
 [autoload]
 
 Atlas="*res://Src/Atlas.gd"
+
+[display]
+
+window/size/width=960
+window/size/height=640
+mouse_cursor/custom_image="res://Ressources/Images/Original Format/KennyTileMapAttempt/uipack-space/PNG/cursor_pointer3D_shadow.png"
+
+[input]
+
+zoom_out={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":90,"unicode":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
 
 [physics]
 
